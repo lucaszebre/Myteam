@@ -3,7 +3,7 @@ import CardBottom from '../CardBottom'
 import Image from 'next/image'
 const Bottom = () => {
     return (
-        <div className='overflow-x-hidden relative bg-green w-full lg:h-[745px] h-auto  justify-center content-center place-content-center flex flex-row pb-[4em]' >
+        <div className='-z-10 overflow-x-hidden relative bg-green w-full lg:h-[745px] h-auto  justify-center content-center place-content-center flex flex-row pb-[4em]' >
             <Image className='absolute top-0 left-0 -z-6' src={"/assets/bg-pattern-home-4-about-3.svg"} width="147" height="100"/>
             <Image class="absolute bottom-0 -right-[2rem] -z-4 " alt='pattern' src="./assets/bg-pattern-home-5.svg" width="200" height="200" />
         <div className='w-[90%] flex flex-col justify-center items-center mt-[5em] '>

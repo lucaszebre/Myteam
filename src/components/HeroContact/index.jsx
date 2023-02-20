@@ -104,7 +104,7 @@ const HeroContact = () => {
         //Form submission happens here
     }
     return (
-        <div className='overflow-x-hidden relative bg-green w-full h-auto flex flex-col items-center justify-center place-content-center'>
+        <div className=' -z-10 overflow-x-hidden relative bg-green w-full h-auto flex flex-col items-center justify-center place-content-center'>
         <Image className="object-cover absolute top-0 -left-[9rem]"src={"/assets/bg-pattern-about-2-contact-1.svg"} alt="bg-pattern-about-2-contact-1"  width={200} height={200} />
         <Image className="object-cover absolute bottom-0 -right-[9.3rem]" src={"/assets/bg-pattern-contact-2.svg"} alt="bg-pattern-contact-2" width={200} height={200} />
         <div className='flex lg:flex-row flex-col lg:items-start items-center content-center justify-between w-[90%] place-content-start  pb-[2em]'>

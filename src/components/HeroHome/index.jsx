@@ -3,7 +3,7 @@ import Image from 'next/image'
 const HeroHome = () => {
     return (
         <>
-            <div className='relative w-full flex flex-col bg-green h-[500px]  contents-center items-center'>
+            <div className='-z-10 relative w-full flex flex-col bg-green h-[500px]  contents-center items-center'>
                     <Image className="lg:flex hidden absolute -z-3 -left-[9rem] "src="./assets/bg-pattern-home-1.svg" width="200" height="200"/>
                     <Image className="absolute -z-3 bottom-0 lg:right-40"src="./assets/bg-pattern-home-2.svg" width="358" height="200"/>
                     <div className=' flex w-[90%] lg:flex-row lg:justify-between flex-col justify-center items-center z-10 '>

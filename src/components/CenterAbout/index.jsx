@@ -3,7 +3,7 @@ import Image from 'next/image'
 import CardCenterAbout from '../CardCenterAbout'
 const CenterAbout = () => {
     return (
-        <div className='bg-jungle relative flex flex-col py-[7em] w-full h-full items-center place-content-center'>
+        <div className='-z-10 bg-jungle relative flex flex-col py-[7em] w-full h-full items-center place-content-center'>
                 <Image className="absolute top-0 -left-[6rem] -z-1 "src={"/assets/bg-pattern-about-2-contact-1.svg"} width="200" height={"200"}/>
                 <div  className='z-1 w-[90%] flex flex-col  items-center place-content-center'>
                     <h1 className='text-center text-[3rem] text-white mb-[2em] md:mt-0 mt-[4rem] font-bold'>Meet the director</h1>

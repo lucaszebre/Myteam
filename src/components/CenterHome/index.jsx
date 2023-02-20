@@ -4,7 +4,7 @@ import Image from 'next/image'
 const CenterHome = () => {
     return (
         <>
-            <div className=' overflow-x-hidden relative flex flex-col w-full content-center md:h-[684px] items-center bg-StateGreen place-content-center'>
+            <div className='-z-10 overflow-x-hidden relative flex flex-col w-full content-center md:h-[684px] items-center bg-StateGreen place-content-center'>
                 <Image class="absolute lg:bottom-0 -right-[7rem] -z-4 top-0  " alt='pattern' src="./assets/bg-pattern-home-3.svg" width="200" height="200" />
                 <div className=' flex lg:items-start lg:text-start flex-col lg:flex-row lg:justify-between justify-center w-[90%] items-center  content-center place-items-center'>
                 <div className=' lg:items-start lg:text-start h-full text-white items-center font-extrabold lg:text-6xl lg:w-[60%] md:text-2xl text-4xl md:w-[45%] relative lg:pt-0 pt-[8rem]  text-left w-full'>

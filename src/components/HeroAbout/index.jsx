@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const HeroAbout = () => {
     return (
-        <div className='overflow-x-hidden relative w-full flex flex-col bg-green h-[420px]  contents-center items-center place-content-center'>
+        <div className='-z-10 overflow-x-hidden relative w-full flex flex-col bg-green h-[420px]  contents-center items-center place-content-center'>
             <Image className="absolute bottom-0 -right-[8em]" src={"/assets/bg-pattern-about-1-mobile-nav-1.svg"} alt="bg-pattern" width={"200"} height="200" />
             <div className=' flex w-[90%] lg:flex-row lg:justify-between flex-col justify-center items-center z-10 place-content-center '>
             <div className="md:w-[40%] text-white font-black lg:text-8xl text-5xl content-center items-center lg:text-left   text-center mb-3 w-[90%]">

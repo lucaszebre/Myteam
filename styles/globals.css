@@ -2,5 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+    width: 20px;
+    }
+    
+  /* Track */
+        ::-webkit-scrollbar-track {
+    background: #014E56;
+    }
+    
+  /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background:  #F67E7E;
+    border-radius: 1rem;
+    }
 
 /* Path: myteam\styles\globals.css */

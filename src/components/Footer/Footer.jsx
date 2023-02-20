@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 const Footer = () => {
     return (
-    <div className='bg-DarkGreen w-full flex justify-center lg:h-[196px] md:h-[271px] place-content-center h-[450px] pb-[3em]'>   
+    <div className='-z-10 bg-DarkGreen w-full flex justify-center lg:h-[196px] md:h-[271px] place-content-center h-[450px] pb-[3em]'>   
         <div className='pt-14 flex  flex-col lg:flex-row justify-between w-[90%] items-center  content-center place-items-center md: '>
             <div className='flex justify-between md:flex-row flex-col lg:w-1/2 w-full '>
                 <div className='flex flex-col md:items-start content-start items-center'>
